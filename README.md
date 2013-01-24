@@ -31,7 +31,7 @@ use environment / test sphinx
 ------------------------------
 
 1. `vagrant ssh`
-2. `hg clone bb://birkenfeld/sphinx
+2. `hg clone bb://birkenfeld/sphinx`
 3. `cd sphinx`
 4. `tox`
 
