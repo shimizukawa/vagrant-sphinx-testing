@@ -91,6 +91,7 @@ Vagrant::Config.run do |config|
       },
       :mercurial_env => {
         'owner' => 'vagrant',
+        'group' => 'vagrant',
         'hgrc' => {
           'username' => 'shimizukawa <shimizukawa@gmail.com>',
           'bb' => {'username' => 'shimizukawa'},
