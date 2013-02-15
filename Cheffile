@@ -16,5 +16,5 @@ cookbook 'mercurial-env',
 cookbook 'shimizukawa-env',
   :git => 'https://github.com/shimizukawa/chef-shimizukawa-env'
 
-cookbook 'texlive'
+cookbook 'texlive',
   :git => 'https://github.com/tk0miya/chef-texlive'
