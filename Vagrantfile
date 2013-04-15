@@ -2,7 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant::Config.run do |config|
-  config.vm.box = "ubuntu-12.04-x86_64"
+  config.vm.box = "ubuntu-12.04-x64"
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
   config.vm.provision :chef_solo do |chef|
     #chef.log_level = "debug"
