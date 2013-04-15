@@ -13,6 +13,6 @@
 	"run_list": [
 		"recipe[git]",
 		"recipe[texlive]",
-		"recipe[python-build]",
+		"recipe[python-build]"
 	]
 }
