@@ -1,0 +1,21 @@
+{
+	"name": "shimizukawa",
+	"default_attributes": {
+		"mercurial_env": {
+			"owner": "vagrant",
+			"group": "vagrant",
+			"hgrc": {
+				"username": "shimizukawa <shimizukawa@gmail.com>",
+				"bb": {"username": "shimizukawa"}
+			}
+		}
+	},
+	"override_attributes": {},
+	"json_class": "Chef::Role",
+	"description": "",
+	"chef_type": "role",
+	"run_list": [
+		"recipe[mercurial-env]",
+		"recipe[shimizukawa-env]"
+	]
+}
