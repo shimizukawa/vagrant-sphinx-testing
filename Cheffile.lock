@@ -1,0 +1,57 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.9.2)
+    build-essential (1.4.0)
+    chef_handler (1.1.4)
+    dmg (1.1.0)
+    git (2.5.0)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0)
+      windows (>= 0.0.0)
+      yum (>= 0.0.0)
+    runit (1.1.4)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    windows (1.8.10)
+      chef_handler (>= 0.0.0)
+    yum (2.2.0)
+
+GIT
+  remote: https://github.com/shimizukawa/chef-mercurial-env
+  ref: master
+  sha: e4d93fb3e1567bfcca6a2fdae715092afe2e6a2d
+  specs:
+    mercurial-env (0.2.1)
+
+GIT
+  remote: https://github.com/shimizukawa/chef-python-build
+  ref: master
+  sha: 801426c5f3218758313bff77d07aa625d4283d74
+  specs:
+    python-build (0.2.4)
+      build-essential (>= 0.0.0)
+
+GIT
+  remote: https://github.com/shimizukawa/chef-shimizukawa-env
+  ref: master
+  sha: ca1438859d8728e3d18564ff4b25930df510a5de
+  specs:
+    shimizukawa-env (0.1.2)
+
+GIT
+  remote: https://github.com/tk0miya/chef-texlive
+  ref: master
+  sha: ae059e1898cd339dbf668d04fd3d60f66c601d10
+  specs:
+    texlive (0.2.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  git (>= 0)
+  mercurial-env (>= 0)
+  python-build (>= 0)
+  shimizukawa-env (>= 0)
+  texlive (>= 0)
+
