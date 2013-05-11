@@ -1,0 +1,3 @@
+[submodule "site-cookbooks\\python-build"]
+	path = site-cookbooks\\python-build
+	url = git@github.com:shimizukawa/chef-python-build
