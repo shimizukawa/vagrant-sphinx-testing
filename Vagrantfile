@@ -7,7 +7,7 @@ Vagrant::Config.run do |config|
 
   config.vm.provision :chef_solo do |chef|
     #chef.log_level = "debug"
-    chef.cookbooks_path = "cookbooks"
+    chef.cookbooks_path = ["site-cookbooks", "cookbooks"]
     chef.roles_path = "roles"
     chef.add_recipe "apt"
     chef.add_role "sphinx-testing"
