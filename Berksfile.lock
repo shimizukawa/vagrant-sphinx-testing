@@ -1,0 +1,48 @@
+{
+  "sources": {
+    "apt": {
+      "locked_version": "2.2.0"
+    },
+    "git": {
+      "locked_version": "2.7.0"
+    },
+    "python-build": {
+      "locked_version": "0.3.4",
+      "git": "https://github.com/shimizukawa/chef-python-build",
+      "ref": "8126e682b9e33b5d9abe6e8594b47d04bf3e827a"
+    },
+    "mercurial-env": {
+      "locked_version": "0.2.3",
+      "git": "https://github.com/shimizukawa/chef-mercurial-env",
+      "ref": "3107ead2806cd0d2194f92282c5ec2999c87c764"
+    },
+    "shimizukawa-env": {
+      "locked_version": "0.1.2",
+      "git": "https://github.com/shimizukawa/chef-shimizukawa-env",
+      "ref": "ca1438859d8728e3d18564ff4b25930df510a5de"
+    },
+    "texlive": {
+      "locked_version": "0.2.0",
+      "git": "https://github.com/tk0miya/chef-texlive",
+      "ref": "ae059e1898cd339dbf668d04fd3d60f66c601d10"
+    },
+    "dmg": {
+      "locked_version": "2.0.4"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "yum": {
+      "locked_version": "2.3.4"
+    },
+    "windows": {
+      "locked_version": "1.11.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "runit": {
+      "locked_version": "1.3.0"
+    }
+  }
+}
