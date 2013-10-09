@@ -1,36 +1,36 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    apt (1.9.2)
-    build-essential (1.4.0)
+    apt (2.1.1)
+    build-essential (1.4.2)
     chef_handler (1.1.4)
-    dmg (1.1.0)
-    git (2.5.0)
+    dmg (2.0.0)
+    git (2.6.0)
       build-essential (>= 0.0.0)
       dmg (>= 0.0.0)
-      runit (>= 1.0)
+      runit (>= 1.0.0)
       windows (>= 0.0.0)
       yum (>= 0.0.0)
-    runit (1.1.4)
+    runit (1.2.0)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
-    windows (1.8.10)
+    windows (1.10.0)
       chef_handler (>= 0.0.0)
-    yum (2.2.0)
+    yum (2.3.2)
 
 GIT
   remote: https://github.com/shimizukawa/chef-mercurial-env
   ref: master
-  sha: e4d93fb3e1567bfcca6a2fdae715092afe2e6a2d
+  sha: 3107ead2806cd0d2194f92282c5ec2999c87c764
   specs:
-    mercurial-env (0.2.1)
+    mercurial-env (0.2.3)
 
 GIT
   remote: https://github.com/shimizukawa/chef-python-build
   ref: master
-  sha: 801426c5f3218758313bff77d07aa625d4283d74
+  sha: 8126e682b9e33b5d9abe6e8594b47d04bf3e827a
   specs:
-    python-build (0.2.4)
+    python-build (0.3.4)
       build-essential (>= 0.0.0)
 
 GIT
