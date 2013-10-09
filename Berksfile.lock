@@ -7,9 +7,9 @@
       "locked_version": "2.7.0"
     },
     "python-build": {
-      "locked_version": "0.3.4",
+      "locked_version": "0.4.1",
       "git": "https://github.com/shimizukawa/chef-python-build",
-      "ref": "8126e682b9e33b5d9abe6e8594b47d04bf3e827a"
+      "ref": "0ef700cb65a99bdfe0e50feb39ea57d951427c84"
     },
     "mercurial-env": {
       "locked_version": "0.2.3",
