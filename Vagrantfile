@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 
     chef.json.merge!({
       :texlive => {
-        #:dvd_url => '/vagrant/texlive2012-20120701.iso',
+        #:dvd_url => '/vagrant/texlive2013-20130530.iso',
       },
     })
   end
