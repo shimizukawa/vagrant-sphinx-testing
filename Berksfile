@@ -32,6 +32,9 @@ cookbook 'shimizukawa-env',
 cookbook 'texlive',
   :git => 'https://github.com/tk0miya/chef-texlive'
 
+# myrecipe for some recipes
+cookbook 'myrecipe',
+  :git => 'https://github.com/shimizukawa/chef-myrecipe'
 
 ####################################################################
 # my bundle cookbooks
