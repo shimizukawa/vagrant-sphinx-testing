@@ -1,20 +1,20 @@
 {
   "sources": {
     "apt": {
-      "locked_version": "2.2.0"
+      "locked_version": "2.2.2"
     },
     "git": {
       "locked_version": "2.7.0"
     },
     "python-build": {
-      "locked_version": "0.4.1",
+      "locked_version": "0.4.2",
       "git": "https://github.com/shimizukawa/chef-python-build",
-      "ref": "0ef700cb65a99bdfe0e50feb39ea57d951427c84"
+      "ref": "772317acb4ea0524ad350b93edf46230c8f2e6ba"
     },
     "mercurial-env": {
-      "locked_version": "0.2.3",
+      "locked_version": "0.2.4",
       "git": "https://github.com/shimizukawa/chef-mercurial-env",
-      "ref": "3107ead2806cd0d2194f92282c5ec2999c87c764"
+      "ref": "1d914986e2fb9854a9fc431c0e1dd3f5ed499bae"
     },
     "shimizukawa-env": {
       "locked_version": "0.1.2",

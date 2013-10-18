@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
   #Use this to upgrade chef version
-  config.omnibus.chef_version = "11.6.0"
+  config.omnibus.chef_version = "latest"
 
   config.vm.provision :chef_solo do |chef|
     #chef.log_level = "debug"
